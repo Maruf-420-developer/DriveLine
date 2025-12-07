@@ -107,10 +107,10 @@ Bookings:
   - GET /api/v1/bookings – Get bookings (Admin: all, Customer: self)
   - PUT /api/v1/bookings/:bookingId – Update booking status
 
-Utilities & Helpers
-(for-TryCatch) => catchAsync – Handles async errors in controllers
-(Update-Fields) => buildUpdateFields – Dynamically build SQL update queries
-(getDiffDays) => getDaysBetweenDates – Calculate number of days between two dates
-(Date-format) => formatDateBD – Format date to Bangladesh timezone
+Utilities & Helpers : 
+- (for-TryCatch) => catchAsync – Handles async errors in controllers
+- (Update-Fields) => buildUpdateFields – Dynamically build SQL update queries
+- (getDiffDays) => getDaysBetweenDates – Calculate number of days between two dates
+- (Date-format) => formatDateBD – Format date to Bangladesh timezone
 
 initAdmin – Initialize default admin if not exists
