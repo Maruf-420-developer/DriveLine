@@ -35,8 +35,8 @@ Live Deployment: https://assignment-two-kohl-five.vercel.app/
 
 ## Project Structure
 
-- {
-  /src
+```txt
+/src
   /config
     db.ts
     index.ts
@@ -77,7 +77,8 @@ Live Deployment: https://assignment-two-kohl-five.vercel.app/
     initAdmin.ts
   app.ts
   server.ts
- }
+```
+
 
 Environment Variables
 Create a .env file in the root:  
