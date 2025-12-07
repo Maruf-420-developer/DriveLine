@@ -81,9 +81,9 @@ Live Deployment: https://assignment-two-kohl-five.vercel.app/
 
 Environment Variables
 Create a .env file in the root:  
-            CONNECTION_STRING=postgres://user:password@localhost:5432/yourdb
-            PORT=5000
-            JWT_SECRET=your_jwt_secret_key
+       -     CONNECTION_STRING=postgres://user:password@localhost:5432/yourdb
+      -     PORT=5000
+      -     JWT_SECRET=your_jwt_secret_key
 
 
 API Endpoints
